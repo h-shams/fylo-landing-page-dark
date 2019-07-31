@@ -1,0 +1,29 @@
+
+/* ########### Colors  ############*/
+:root{
+
+/* ### Primary ### */
+  --semi-dark-blue: hsl(217, 28%, 15%);
+  --dark-blue: hsl(218, 28%, 13%);
+  --very-dark-blue : hsl(216, 53%, 9%);
+  --light-blue : hsl(219, 30%, 18%);
+
+/* ### Accent ###*/
+  --cyan: hsl(176, 68%, 64%);
+  --blue: hsl(198, 60%, 50%);
+
+/* ### Neutral ###*/
+--white: hsl(0, 0%, 100%)
+}
+
+
+body{
+  font-size: .875rem;
+  margin: 0;
+  background-color: var(--dark-blue);
+}
+
+.inner-container{
+  width: 90%;
+  max-width: 50em;
+}
