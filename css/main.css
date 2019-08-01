@@ -114,3 +114,26 @@ body{
 .intro__btn{
 
 }
+
+.featurs{
+}
+
+.feature{
+  text-align: center;
+  margin: 7em 0;
+}
+
+.feature__img{
+  width: 5em;
+  margin: 1.5em auto;
+  display: block;
+}
+
+.feature__title{
+  font-size: 1.25em;
+  margin: .5em 0;
+}
+
+.feature__des{
+
+}
