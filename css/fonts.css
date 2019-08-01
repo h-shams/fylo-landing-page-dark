@@ -27,28 +27,28 @@
 }
 
 @font-face {
-  font-family: 'open-sans';
+  font-family: 'raleway';
   src: url('../fonts/Raleway-Regular.ttf');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'open-sans';
+  font-family: 'raleway';
   src: url('../fonts/Raleway-RegularItalic.ttf');
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'open-sans';
+  font-family: 'raleway';
   src: url('../fonts/Raleway-Bold.ttf');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'open-sans';
+  font-family: 'raleway';
   src: url('../fonts/Raleway-BoldItalic.ttf');
   font-weight: 700;
   font-style: italic;
