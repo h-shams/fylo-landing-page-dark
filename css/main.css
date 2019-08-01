@@ -21,9 +21,90 @@ body{
   font-size: .875rem;
   margin: 0;
   background-color: var(--dark-blue);
+  color: #fff;
+  font-family: open-sans;
+  font-weight: 400;
 }
 
 .inner-container{
-  width: 90%;
+  width: 80%;
   max-width: 50em;
+  margin: 0 auto;
+}
+
+.clearfix::before,.clearfix::after{
+  content: ' ';
+  display: table;
+}
+.clearfix::after{
+  clear: both;
+}
+
+.heading{
+  font-size: 1.7em;
+  line-height: 1.5em;
+  font-family: raleway;
+  text-align: center;
+}
+
+.btn{
+  text-decoration: none;
+  color: #fff;
+  font-family: raleway;
+  font-weight: 700;
+  padding: 1em 5em;
+  margin: 2em auto;
+  display: table;
+  background-image: linear-gradient(var(--cyan), var(--blue));
+  border-radius: 50em;
+}
+
+.header{
+  padding: 2em;
+}
+
+.header__logo{
+  height: 2em;
+  float: left;
+}
+
+.header__nav{
+  float: right;
+}
+
+.menu{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu__item-wrap{
+  float: left;
+}
+
+.menu__item{
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: .5em;
+}
+
+.intro{
+
+}
+
+.intro__img{
+  width: 100%;
+}
+
+.intro__title{
+
+}
+
+.intro__des{
+  text-align: center;
+}
+
+.intro__btn{
+
 }
