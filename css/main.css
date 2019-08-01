@@ -61,6 +61,7 @@ body{
 
 .header{
   padding: 2em;
+  background-color: var(--semi-dark-blue);
 }
 
 .header__logo{
@@ -90,7 +91,12 @@ body{
 }
 
 .intro{
-
+  background-image: url('../images/bg-curvy-mobile.svg'),
+                    linear-gradient(transparent calc(50% + 4.9em), var(--dark-blue) calc(50% + 4.9em));
+  background-repeat: no-repeat;
+  background-position: 0 50%, 0 0;
+  background-size: 100% 10em, 100%;
+  background-color: var(--semi-dark-blue);
 }
 
 .intro__img{
