@@ -139,7 +139,7 @@ body{
 }
 
 .access-anywhere{
-  padding: 4em 0;  
+  padding: 4em 0;
 }
 
 .access-anywhere__img{
@@ -172,4 +172,72 @@ body{
   display: block;
   float: right;
   margin-left: .25em;
+}
+
+.testimonials{
+  position: relative;
+  margin: 2em 0;
+}
+.testimonials::after{
+  content: " ";
+  display: block;
+  position: absolute;
+  background-image: url('../images/bg-quotes.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1.2em;
+  width: 1.46em;
+  bottom: 100%;
+  left: 15%;
+}
+
+.testimonial{
+  padding: 1.5em;
+  background-color: var(--light-blue);
+  border-radius: .25em;
+  margin: 2em 1em;
+  box-shadow: 0 0 0 .25em rgba(255,255,255,.02);
+
+}
+.testimonial:first-child{
+  margin-top: 0;
+}
+.testimonial:last-child{
+  margin-bottom: 0;
+}
+
+.testimonial__txt{
+  font-size: .8em;
+  margin: 1em 0;
+  margin-bottom: 2em;
+}
+
+.testimonials__profile-wrap{
+  /* height: 5em; */
+}
+
+.testimonial__img-wrap{
+  float: left;
+  height: 2.2em;
+  width: 2.2em;
+  margin-right: .5em;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.testimonial__img{
+  height: 1em;
+  height: 100%;
+}
+
+.testimonial__name{
+  font-size: .8em;
+  margin: 0;
+  text-align: left;
+  line-height: normal;
+}
+
+.testimonial__profession{
+  font-size: .7em;
+  color: #ddd;
 }
