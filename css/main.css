@@ -16,6 +16,12 @@
 --white: hsl(0, 0%, 100%)
 }
 
+html{
+  box-sizing: border-box;
+}
+html *,html *::after,html *::before{
+  box-sizing: inherit;
+}
 
 body{
   font-size: .875rem;
@@ -25,6 +31,8 @@ body{
   font-family: open-sans;
   font-weight: 400;
 }
+
+
 
 .inner-container{
   width: 80%;
@@ -240,4 +248,46 @@ body{
 .testimonial__profession{
   font-size: .7em;
   color: #ddd;
+}
+
+.sign-up{
+  background-image: linear-gradient(var(--dark-blue) 50%,var(--very-dark-blue) 50%);
+  padding: 3em 0;
+}
+
+.sign-up__wrapper{
+  border-radius: .5em;
+  background-color: var(--semi-dark-blue);
+  padding: 2em;
+  margin: 1.5em;
+  box-shadow: .2em .2em .5em 0 rgba(0,0,0,.25);
+}
+
+.sign-up__title{
+  font-size: 1.3em;
+}
+
+.sign-up__txt{
+  text-align: center;
+  color: #eee;
+}
+
+.sign-up__input{
+  border: none;
+  border-radius: 50em;
+  padding: 1.3em;
+  display: block;
+  width: 100%;
+  margin-top: 2.5em;
+  color: #333;
+  font-family: inherit;
+}
+.sign-up__input::placeholder{
+  color: #333;
+}
+
+.sign-up__btn{
+  padding: 1.3em;
+  text-align: center;
+  display: block;
 }
