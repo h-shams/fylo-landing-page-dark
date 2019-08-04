@@ -163,6 +163,7 @@ body{
 }
 
 .access-anywhere__link-wrap{
+  font-size: .9em;
   border-bottom: 1px solid var(--cyan);
   display: table;
   padding: .5em 0;
