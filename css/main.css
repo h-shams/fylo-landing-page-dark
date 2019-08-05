@@ -40,6 +40,14 @@ body{
   margin: 0 auto;
 }
 
+.inner-container::before,.inner-container::after{
+  content: ' ';
+  display: table;
+}
+.inner-container::after{
+  clear: both;
+}
+
 .clearfix::before,.clearfix::after{
   content: ' ';
   display: table;
@@ -168,7 +176,7 @@ body{
 }
 
 .feature__img{
-  width: 5em;
+  height: 5em;
   margin: 1.5em auto;
   display: block;
 }
@@ -176,6 +184,24 @@ body{
 .feature__title{
   font-size: 1.25em;
   margin: .5em 0;
+}
+
+@media(min-width: 45em){
+  .featurs .inner-container{
+    max-width: 70em;
+    width: 85%;
+  }
+  
+  .feature{
+    margin: .5em 0;
+    width: 50%;
+    float: left;
+    padding: 1.5em 4em;
+  }
+
+  .feature__title{
+    font-size: 1.4em;
+  }
 }
 
 .feature__des{
