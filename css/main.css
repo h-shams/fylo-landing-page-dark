@@ -125,7 +125,7 @@ body{
   .intro{
     background-position: 0 bottom, 0 0;
     /* background-size: 100% 15vw, 100%; */
-    background-image: url('../images/bg-curvy-mobile.svg');i
+    background-image: url('../images/bg-curvy-mobile.svg');
   }
 }
 
@@ -143,6 +143,20 @@ body{
 
 .intro__btn{
 
+}
+@media(min-width: 45em){
+  .intro__title{
+    font-size: 2.75em;
+  }
+
+  .intro__des{
+    font-size: 1.35em;
+    padding: 0 3em;
+  }
+
+  .intro__btn{
+    font-size: 1.2em;
+  }
 }
 
 .featurs{
