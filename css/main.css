@@ -114,16 +114,18 @@ body{
 
 .intro{
   background-image: url('../images/bg-curvy-mobile.svg'),
-                    linear-gradient(transparent calc(50% + 4.9em), var(--dark-blue) calc(50% + 4.9em));
+                    linear-gradient(transparent calc(50% + 12vw), var(--dark-blue) calc(50% + 12vw));
   background-repeat: no-repeat;
   background-position: 0 50%, 0 0;
-  background-size: 100% 10em, 100%;
+  background-size: 100% 25vw, 100%;
   background-color: var(--semi-dark-blue);
+  /* background-color: red; */
 }
-@media(min-width: 46em){
+@media(min-width: 55em){
   .intro{
-    background-image: url('../images/bg-curvy-desktop.svg'),
-                      linear-gradient(transparent calc(50% + 4.9em), var(--dark-blue) calc(50% + 4.9em));
+    background-position: 0 bottom, 0 0;
+    /* background-size: 100% 15vw, 100%; */
+    background-image: url('../images/bg-curvy-mobile.svg');i
   }
 }
 
