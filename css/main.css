@@ -76,6 +76,14 @@ body{
   height: 2em;
   float: left;
 }
+@media(min-width: 46em){
+  .header{
+    padding-top: 3em;
+  }
+  .header__logo{
+    font-size: 1.5em;
+  }
+}
 
 .header__nav{
   float: right;
@@ -98,6 +106,12 @@ body{
   padding: .5em;
 }
 
+@media(min-width: 46em){
+  .menu__item-wrap{
+    margin: 0 .5em;
+  }
+}
+
 .intro{
   background-image: url('../images/bg-curvy-mobile.svg'),
                     linear-gradient(transparent calc(50% + 4.9em), var(--dark-blue) calc(50% + 4.9em));
@@ -105,6 +119,12 @@ body{
   background-position: 0 50%, 0 0;
   background-size: 100% 10em, 100%;
   background-color: var(--semi-dark-blue);
+}
+@media(min-width: 46em){
+  .intro{
+    background-image: url('../images/bg-curvy-desktop.svg'),
+                      linear-gradient(transparent calc(50% + 4.9em), var(--dark-blue) calc(50% + 4.9em));
+  }
 }
 
 .intro__img{
