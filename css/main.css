@@ -1,4 +1,4 @@
-
+  
 /* ########### Colors  ############*/
 :root{
 
@@ -36,7 +36,7 @@ body{
 
 .inner-container{
   width: 80%;
-  max-width: 50em;
+  max-width: 60em;
   margin: 0 auto;
 }
 
@@ -62,6 +62,15 @@ body{
   font-family: raleway;
   text-align: center;
 }
+.heading--small{
+  font-size: 1.25em;
+}
+@media(min-width: 32em){
+  .heading--small{
+    font-size: 1.7em;
+  }
+}
+
 
 .btn{
   text-decoration: none;
@@ -212,17 +221,35 @@ body{
   padding: 4em 0;
 }
 
+
 .access-anywhere__img{
   width: 100%;
 }
 
-.access-anywhere__title{
-  font-size: 1.25em;
+.access-anywhere__wrapper{
+  width: 100%;
+}
+
+@media(min-width: 46em){
+  .access-anywhere__wrapper{
+    padding-left: 2em;
+    float: right;
+    width: 45%;
+  }
+  .access-anywhere__img{
+    float: left;
+    width: 55%;
+  }
+  .access-anywhere__title{
+      text-align: left;
+      width: 80%;
+  }
 }
 
 .access-anywhere__des{
   margin: 1em 0;
 }
+
 
 .access-anywhere__link-wrap{
   font-size: .9em;
