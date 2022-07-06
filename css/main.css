@@ -276,18 +276,36 @@ body{
   position: relative;
   margin: 5em 0 2em;
 }
-.testimonials::after{
+
+.testimonials__wrapper{
+  display: table;
+  margin: 0 auto;
+}
+.testimonials__wrapper::after{
   content: " ";
   display: block;
   position: absolute;
   background-image: url('../images/bg-quotes.png');
   background-size: contain;
   background-repeat: no-repeat;
+  font-size: 2.7em;
   height: 1.2em;
   width: 1.46em;
   bottom: 100%;
-  left: 15%;
+  left: 10%;
+  top: -0.9em;
+  z-index: -1;
 }
+
+@media (min-width: 30em) {
+  .testimonials__wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 2em 0;
+  }  
+}
+
 
 .testimonial{
   padding: 1.5em;
@@ -295,7 +313,7 @@ body{
   border-radius: .25em;
   margin: 2em 1em;
   box-shadow: 0 0 0 .25em rgba(255,255,255,.02);
-
+  max-width: 20em;
 }
 .testimonial:first-child{
   margin-top: 0;
@@ -303,6 +321,16 @@ body{
 .testimonial:last-child{
   margin-bottom: 0;
 }
+@media (min-width: 30em) {
+  .testimonial{
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 16em;
+  }  
+}
+
 
 .testimonial__txt{
   font-size: .8em;
