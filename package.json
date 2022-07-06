@@ -1,0 +1,12 @@
+{
+  "name": "fylo-dark-theme-landing-page",
+  "main": "index.js",
+  "scripts": {
+    "server": "browser-sync start -s . --files * --no-open"
+  },
+  "author": "Heydar Shams",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.10"
+  }
+}
